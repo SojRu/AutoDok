@@ -1,6 +1,6 @@
-#include <iostream>
+п»ї#include <iostream>
 
-//комментарий
+//РєРѕРјРјРµРЅС‚Р°СЂРёР№
 using namespace std;
 
 int main()
