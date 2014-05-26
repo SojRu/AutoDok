@@ -1,10 +1,17 @@
 ﻿#include <iostream>
+#include <string>
 
-//комментарий
-using namespace std;
+wchar_t someWCHARstring[] = L"Что-то тут есть";
 
-int main()
+int main(int argc, char* argv[])
 {
-    cout << "Hello world!" << endl;
+	setlocale(LC_ALL, ".866");
+	std::wstring inputSomething;
+    std::wcout << L"Hello world!" << std::endl;
+	std::wcout << someWCHARstring << std::endl;
+	std::wcin >> inputSomething;
+	std::wcout << inputSomething << std::endl;
+
+	system("PAUSE");
     return 0;
 }
