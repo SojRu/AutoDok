@@ -11,7 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\src\DescriptionPage.cpp" />
     <ClCompile Include="..\..\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\DescriptionPage.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C15E466F-F396-4CE1-B84E-C652BCE3CAF9}</ProjectGuid>
