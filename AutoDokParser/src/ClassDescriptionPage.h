@@ -4,6 +4,7 @@
 #include <string>
 #include <vector>
 #include "DescriptionPage.h"
+#include "FuncDescriptionPage.h"
 
 class ClassDescriptionPage : public DescriptionPage {
 public:
@@ -13,7 +14,7 @@ public:
 	//*	vector of parents
 	std::vector<std::wstring> parentsList;
 	//*	vector of methods
-	std::vector<std::wstring> methodsList;
+	std::vector<FuncDescriptionPage*> methodsList;
 };
 
 #endif

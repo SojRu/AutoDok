@@ -12,8 +12,8 @@ public:
 
 	//*	vector of @param marks
 	std::vector<std::wstring> paramList;
-	//*	name of function's owner if exists
-	std::wstring ownerName;
+	//*	function's owner if exists
+	ClassDescriptionPage* owner;
 };
 
 #endif

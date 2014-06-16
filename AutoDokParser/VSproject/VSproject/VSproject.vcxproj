@@ -11,11 +11,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\src\ClassDescriptionPage.cpp" />
     <ClCompile Include="..\..\src\DescriptionPage.cpp" />
+    <ClCompile Include="..\..\src\FuncDescriptionPage.cpp" />
     <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\PageFactory.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\src\ClassDescriptionPage.h" />
     <ClInclude Include="..\..\src\DescriptionPage.h" />
+    <ClInclude Include="..\..\src\FuncDescriptionPage.h" />
+    <ClInclude Include="..\..\src\PageFactory.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C15E466F-F396-4CE1-B84E-C652BCE3CAF9}</ProjectGuid>
