@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1412837291 source:e:\nhk\dev\github\autodok\autodokparser\src\classdescriptionpage.cpp
+
+1412837291 source:e:\nhk\dev\github\autodok\autodokparser\src\descriptionpage.cpp
+
+1412837291 source:e:\nhk\dev\github\autodok\autodokparser\src\funcdescriptionpage.cpp
+
+1413959534 source:e:\nhk\dev\github\autodok\autodokparser\src\pagefactory.cpp
+	<iostream>
+	<wchar.h>
+	"../src/PageFactory.h"
+
+1413958520 source:e:\nhk\dev\github\autodok\autodokparser\src\main.cpp
+	<iostream>
+	<conio.h>
+	<wchar.h>
+	<string>
+	"..\src\PageFactory.h"
+
+1412838882 e:\nhk\dev\github\autodok\autodokparser\src\pagefactory.h
+	<string>
+	<vector>
+	"DescriptionPage.h"
+	"ClassDescriptionPage.h"
+	"FuncDescriptionPage.h"
+
+1412845856 e:\nhk\dev\github\autodok\autodokparser\src\descriptionpage.h
+	<string>
+	<vector>
+
+1412846144 e:\nhk\dev\github\autodok\autodokparser\src\classdescriptionpage.h
+	<string>
+	<vector>
+	"DescriptionPage.h"
+	"FuncDescriptionPage.h"
+
+1412847669 e:\nhk\dev\github\autodok\autodokparser\src\funcdescriptionpage.h
+	<string>
+	<vector>
+	"DescriptionPage.h"
+
+1412837291 source:e:\nhk\dev\github\autodok\autodokparser\cbproject\src\classdescriptionpage.cpp
+
+1412837291 source:e:\nhk\dev\github\autodok\autodokparser\cbproject\src\descriptionpage.cpp
+
+1412837291 source:e:\nhk\dev\github\autodok\autodokparser\cbproject\src\funcdescriptionpage.cpp
+
+1412848775 source:e:\nhk\dev\github\autodok\autodokparser\cbproject\src\pagefactory.cpp
+	<iostream>
+	<wchar.h>
+	"../src/PageFactory.h"
+
+1412838882 e:\nhk\dev\github\autodok\autodokparser\cbproject\src\pagefactory.h
+	<string>
+	<vector>
+	"DescriptionPage.h"
+	"ClassDescriptionPage.h"
+	"FuncDescriptionPage.h"
+
+1412845856 e:\nhk\dev\github\autodok\autodokparser\cbproject\src\descriptionpage.h
+	<string>
+	<vector>
+
+1412846144 e:\nhk\dev\github\autodok\autodokparser\cbproject\src\classdescriptionpage.h
+	<string>
+	<vector>
+	"DescriptionPage.h"
+	"FuncDescriptionPage.h"
+
+1412847669 e:\nhk\dev\github\autodok\autodokparser\cbproject\src\funcdescriptionpage.h
+	<string>
+	<vector>
+	"DescriptionPage.h"
+

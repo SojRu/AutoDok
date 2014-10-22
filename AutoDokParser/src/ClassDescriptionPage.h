@@ -1,3 +1,8 @@
+/****************************************************************
+ *	@author Alexey (WelorD) Mochalov
+ *	@created 16.06.2014
+ ***************************************************************/
+
 #ifndef CLASSDESCRIPTIONPAGE_H
 #define CLASSDESCRIPTIONPAGE_H
 
@@ -11,9 +16,9 @@ public:
 	ClassDescriptionPage(void);
 	~ClassDescriptionPage(void);
 
-	//*	vector of parents
+	//	vector of parents
 	std::vector<std::wstring> parentsList;
-	//*	vector of methods
+	//	vector of methods
 	std::vector<FuncDescriptionPage*> methodsList;
 };
 
