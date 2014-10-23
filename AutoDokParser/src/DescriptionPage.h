@@ -6,8 +6,7 @@
 #ifndef DESCRIPTIONPAGE_H
 #define DESCRIPTIONPAGE_H
 
-#include <string>
-#include <vector>
+#include "stdafx.h"
 
 class DescriptionPage {
 public:

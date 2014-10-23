@@ -3,12 +3,12 @@
  *	@created 23.10.2014
  ***************************************************************/
 
-#include "DescriptionPage.h"
+#ifndef STDAFX_H
+#define STDAFX_H
 
-DescriptionPage::DescriptionPage() {
+#include <string>
+#include <vector>
+#include <iostream>
+#include <wchar.h>
 
-}
-
-DescriptionPage::~DescriptionPage() {
-
-}
+#endif // STDAFX_H

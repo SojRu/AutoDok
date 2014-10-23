@@ -8,7 +8,8 @@
 #include <wchar.h>
 #include <string>
 
-#include "..\src\PageFactory.h"
+//#include "..\src\PageFactory.h"
+#include "PageFactory.h"
 
 wchar_t someWCHARstring[] = L"Some output.";//L"Что-то тут есть";
 //PageFactory Factory;

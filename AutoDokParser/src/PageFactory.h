@@ -5,23 +5,26 @@
 #ifndef PAGEFACTORY_H
 #define PAGEFACTORY_H
 
-#include <string>
-#include <vector>
-
+#include "stdafx.h"
 #include "DescriptionPage.h"
 #include "ClassDescriptionPage.h"
 #include "FuncDescriptionPage.h"
 
+// @brief Class wich create all types of description pages.
 class PageFactory {
+private:
+	// @brief vector of pages created after src files analysis
+	typedef std::vector<DescriptionPage*> vPageList;
 public:
 	PageFactory(void);
 	~PageFactory(void);
 
-	//* vector of pages created after src files analysis
-	std::vector<DescriptionPage*> pagesList;
+	ClassDescriptionPage* createClassDescriptionPage(void);
+	FuncDescriptionPage* createFuncDescriptionPage(void);
 
-	ClassDescriptionPage* createClassDescriptionpage(void);
-	FuncDescriptionPage* createFuncDescriptionpage(void);
+	vPageList pageList;
+protected:
+//	vPageList pageList;
 };
 
 #endif

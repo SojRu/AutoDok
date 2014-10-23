@@ -41,6 +41,7 @@
 		<Unit filename="../src/PageFactory.cpp" />
 		<Unit filename="../src/PageFactory.h" />
 		<Unit filename="../src/main.cpp" />
+		<Unit filename="../src/stdafx.h" />
 		<Extensions>
 			<DoxyBlocks>
 				<comment_style block="0" line="0" />
