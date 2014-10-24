@@ -1,29 +1,24 @@
 # depslib dependency file v1.0
 1412837291 source:e:\nhk\dev\github\autodok\autodokparser\src\classdescriptionpage.cpp
 
-1414072109 source:e:\nhk\dev\github\autodok\autodokparser\src\descriptionpage.cpp
+1414126405 source:e:\nhk\dev\github\autodok\autodokparser\src\descriptionpage.cpp
 	"DescriptionPage.h"
 
-1414071923 source:e:\nhk\dev\github\autodok\autodokparser\src\funcdescriptionpage.cpp
+1414126428 source:e:\nhk\dev\github\autodok\autodokparser\src\funcdescriptionpage.cpp
 	"FuncDescriptionPage.h"
 
-1414069787 source:e:\nhk\dev\github\autodok\autodokparser\src\pagefactory.cpp
-	"..\src\PageFactory.h"
-
-1414069642 source:e:\nhk\dev\github\autodok\autodokparser\src\main.cpp
-	<iostream>
-	<conio.h>
-	<wchar.h>
-	<string>
+1414126415 source:e:\nhk\dev\github\autodok\autodokparser\src\pagefactory.cpp
 	"PageFactory.h"
 
-1414069503 e:\nhk\dev\github\autodok\autodokparser\src\pagefactory.h
+1414126393 source:e:\nhk\dev\github\autodok\autodokparser\src\main.cpp
 	"stdafx.h"
-	"DescriptionPage.h"
-	"ClassDescriptionPage.h"
-	"FuncDescriptionPage.h"
+	"PageFactory.h"
 
-1414072007 e:\nhk\dev\github\autodok\autodokparser\src\descriptionpage.h
+1414127458 e:\nhk\dev\github\autodok\autodokparser\src\pagefactory.h
+	"stdafx.h"
+	"PageClasses.h"
+
+1414126400 e:\nhk\dev\github\autodok\autodokparser\src\descriptionpage.h
 	"stdafx.h"
 
 1412846144 e:\nhk\dev\github\autodok\autodokparser\src\classdescriptionpage.h
@@ -32,7 +27,7 @@
 	"DescriptionPage.h"
 	"FuncDescriptionPage.h"
 
-1414069604 e:\nhk\dev\github\autodok\autodokparser\src\funcdescriptionpage.h
+1414126420 e:\nhk\dev\github\autodok\autodokparser\src\funcdescriptionpage.h
 	"stdafx.h"
 	"DescriptionPage.h"
 
@@ -69,9 +64,16 @@
 	<vector>
 	"DescriptionPage.h"
 
-1414069468 e:\nhk\dev\github\autodok\autodokparser\src\stdafx.h
+1414127526 e:\nhk\dev\github\autodok\autodokparser\src\stdafx.h
 	<string>
 	<vector>
 	<iostream>
 	<wchar.h>
+	<conio.h>
+
+1414126978 e:\nhk\dev\github\autodok\autodokparser\src\pageclasses.h
+	"stdafx.h"
+
+1414127426 source:e:\nhk\dev\github\autodok\autodokparser\src\pageclasses.cpp
+	"PageClasses.h"
 

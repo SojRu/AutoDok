@@ -1,10 +1,10 @@
 /****************************************************************
- *	@author Alexey (WelorD) Mochalov
- *	@created 16.06.2014
+ *	@author Alexey (SojRu) Mochalov
+ *	@created 24.10.2014
  ***************************************************************/
 
-#ifndef DESCRIPTIONPAGE_H
-#define DESCRIPTIONPAGE_H
+#ifndef PAGECLASSES_H
+#define PAGECLASSES_H
 
 #include "stdafx.h"
 
@@ -28,4 +28,28 @@ public:
 	std::vector<std::wstring> todoList;
 };
 
-#endif
+
+class FuncDescriptionPage : public DescriptionPage {
+public:
+	FuncDescriptionPage(void);
+	~FuncDescriptionPage(void);
+
+	//	vector of @param marks
+	std::vector<std::wstring> paramList;
+	//	function's owner if exists
+	//ClassDescriptionPage* owner;
+};
+
+
+class ClassDescriptionPage : public DescriptionPage {
+public:
+	ClassDescriptionPage(void);
+	~ClassDescriptionPage(void);
+
+	//	vector of parents
+	std::vector<std::wstring> parentsList;
+	//	vector of methods
+	std::vector<FuncDescriptionPage*> methodsList;
+};
+
+#endif // PAGECLASSES_H

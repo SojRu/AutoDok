@@ -1,5 +1,5 @@
 /****************************************************************
- *	@author Alexey (WelorD) Mochalov
+ *	@author Alexey (SojRu) Mochalov
  *	@created 23.10.2014
  ***************************************************************/
 
@@ -10,5 +10,6 @@
 #include <vector>
 #include <iostream>
 #include <wchar.h>
+#include <conio.h>
 
 #endif // STDAFX_H

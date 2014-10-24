@@ -1,14 +1,12 @@
 /****************************************************************
- *	@author Alexey (WelorD) Mochalov
+ *	@author Alexey (SojRu) Mochalov
  *	@created 16.06.2014
  ***************************************************************/
 #ifndef PAGEFACTORY_H
 #define PAGEFACTORY_H
 
 #include "stdafx.h"
-#include "DescriptionPage.h"
-#include "ClassDescriptionPage.h"
-#include "FuncDescriptionPage.h"
+#include "PageClasses.h"
 
 // @brief Class wich create all types of description pages.
 class PageFactory {
@@ -27,4 +25,4 @@ protected:
 //	vPageList pageList;
 };
 
-#endif
+#endif //PAGEFACTORY_H

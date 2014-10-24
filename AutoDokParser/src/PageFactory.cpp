@@ -1,9 +1,9 @@
 /****************************************************************
- *	@author Alexey (WelorD) Mochalov
+ *	@author Alexey (SojRu) Mochalov
  *	@created 9.10.2014
  ***************************************************************/
 
-#include "..\src\PageFactory.h"
+#include "PageFactory.h"
 
 PageFactory::PageFactory() {
 	std::wcout << L"Fabric created!" << std::endl;

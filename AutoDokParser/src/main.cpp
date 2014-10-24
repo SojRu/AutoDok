@@ -1,14 +1,9 @@
 /****************************************************************
- *	@author Alexey (WelorD) Mochalov
+ *	@author Alexey (SojRu) Mochalov
  *	@created 05.05.2014
  ***************************************************************/
 
-#include <iostream>
-#include <conio.h>
-#include <wchar.h>
-#include <string>
-
-//#include "..\src\PageFactory.h"
+#include "stdafx.h"
 #include "PageFactory.h"
 
 wchar_t someWCHARstring[] = L"Some output.";//L"Что-то тут есть";
