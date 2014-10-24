@@ -8,11 +8,11 @@
 // DescriptionPage class section
 //--------------------------------------------------------------
 DescriptionPage::DescriptionPage(void){
-
+	std::wcout << L"DescPage created!" << std::endl;
 }
 
 DescriptionPage::~DescriptionPage(void){
-
+	std::wcout << L"DescPage created!" << std::endl;
 }
 
 
@@ -30,9 +30,9 @@ FuncDescriptionPage::~FuncDescriptionPage(void){
 // ClassDescriptionPage class section
 //--------------------------------------------------------------
 ClassDescriptionPage::ClassDescriptionPage(void){
-
+	std::wcout << L"ClassPage created!" << std::endl;
 }
 
 ClassDescriptionPage::~ClassDescriptionPage(void){
-
+	std::wcout << L"ClassPage created!" << std::endl;
 }

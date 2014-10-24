@@ -7,14 +7,18 @@
 
 PageFactory::PageFactory() {
 	std::wcout << L"Fabric created!" << std::endl;
+	descriptionPages.clear();
+	createFuncDescriptionPage();
 }
 
 PageFactory::~PageFactory() {
 	std::wcout << L"Fabric destroyed!" << std::endl;
 }
 
-FuncDescriptionPage * PageFactory::createFuncDescriptionPage(void) {
-	FuncDescriptionPage * funcDescriptionPage;
+FuncDescriptionPage* PageFactory::createFuncDescriptionPage(void) {
+	FuncDescriptionPage* funcDescriptionPage;
+
 	funcDescriptionPage = new FuncDescriptionPage();
+	descriptionPages.push_back(funcDescriptionPage);
 	return funcDescriptionPage;
 }

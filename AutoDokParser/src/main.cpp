@@ -6,20 +6,21 @@
 #include "stdafx.h"
 #include "PageFactory.h"
 
-wchar_t someWCHARstring[] = L"Some output.";//L"Что-то тут есть";
-//PageFactory Factory;
+wchar_t someWCHARstring[] = L"Р С‚СѓС‚ С‡С‚Рѕ-С‚Рѕ РµСЃС‚СЊ";
+std::wstring someWSTRING;
 
 int main(int argc, char* argv[])
 {
 	PageFactory pageFactory;
+	someWSTRING.assign(L"Р§С‚Рѕ-С‚Рѕ С‚СѓС‚ РµСЃС‚СЊ");
 	setlocale(LC_ALL, ".866");
-	std::wstring inputSomething;
     std::wcout << L"Hello world!" << std::endl;
+    std::wcout << someWSTRING << std::endl;
 	std::wcout << someWCHARstring << std::endl;
 	//std::wcin >> inputSomething;
 	//std::wcout << inputSomething << std::endl;
 
-	// Дожидаемся нажатия любой кнопки
+	// Р”РѕР¶РёРґР°РµРјСЃСЏ РЅР°Р¶Р°С‚РёСЏ Р»СЋР±РѕР№ РєРЅРѕРїРєРё
     getch();
     /*
     while(1) {

@@ -12,17 +12,15 @@
 class PageFactory {
 private:
 	// @brief vector of pages created after src files analysis
-	typedef std::vector<DescriptionPage*> vPageList;
+	typedef std::vector<DescriptionPage*> pageList;
+	// @brief vector of pages
+	pageList descriptionPages;
 public:
 	PageFactory(void);
 	~PageFactory(void);
 
 	ClassDescriptionPage* createClassDescriptionPage(void);
 	FuncDescriptionPage* createFuncDescriptionPage(void);
-
-	vPageList pageList;
-protected:
-//	vPageList pageList;
 };
 
 #endif //PAGEFACTORY_H

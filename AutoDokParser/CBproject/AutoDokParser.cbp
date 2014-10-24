@@ -32,12 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="../src/ClassDescriptionPage.cpp" />
-		<Unit filename="../src/ClassDescriptionPage.h" />
-		<Unit filename="../src/DescriptionPage.cpp" />
-		<Unit filename="../src/DescriptionPage.h" />
-		<Unit filename="../src/FuncDescriptionPage.cpp" />
-		<Unit filename="../src/FuncDescriptionPage.h" />
+		<Unit filename="../src/PageClasses.cpp" />
+		<Unit filename="../src/PageClasses.h" />
 		<Unit filename="../src/PageFactory.cpp" />
 		<Unit filename="../src/PageFactory.h" />
 		<Unit filename="../src/main.cpp" />
